@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test" parallel = "methods">
+  
+  
+  <parameter name="Username" value="Smith" />
+
+	<parameter name  = "password" value = "Smith@123"></parameter>
+		
+		<parameter name="data" value="Smith" />
+
+	<parameter name  = "data2" value = "Smith@123"></parameter>
+		
+
+		<classes>
+
+			<class name="com.TestNG.Features.Parameter_Data" />
+
+		</classes>
+  
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
